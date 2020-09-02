@@ -16,6 +16,7 @@ public class Main {
            if (messageCreateEvent.getMessageContent().equalsIgnoreCase("Hello"))
            {
                messageCreateEvent.getChannel().sendMessage("World");
+
            }
         });
     }
